@@ -1,0 +1,124 @@
+html {
+    height: 100vh;
+    width: 100vw;
+  }
+
+body{
+    background-image: url(/src/img/bg-repeat.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+  }
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 21px 162.5px;
+}
+
+.principal {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  margin: 0px 35px 0px 0px;
+}
+
+.principal h1{
+  font-weight: 900;
+  font-size: 34.7px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.principal p {
+  width: 85%;
+  font-size: 24.8px;
+  letter-spacing: 0.6px;
+  line-height: 31.2px;
+}
+
+.formulario {
+  width: 50vw;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+ul{
+  margin: 0px 36.8px;
+}
+
+ul {
+  margin-top: 34px;
+}
+
+ul li {
+  margin-bottom: 27px;
+}
+
+ul :last-child{
+  margin-bottom: 8px;
+}
+
+.input {
+  height: 60px;
+  width: 100%;
+  border: solid 2px #000000;
+  border-radius: 10px;
+  padding-left: 16px;
+  font-size: 24px;
+}
+
+.textarea {
+  height: 170px;
+  padding-top: 10px;
+}
+
+input::placeholder, textarea::placeholder{
+  color: #A8A8A8;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+}
+
+.formulario p {
+  margin-left: 25.4px;
+  font-size: 26px;
+  margin-bottom: 36px;
+}
+
+.formulario p.aviso {
+  margin: 0px;
+  margin-left: 1.8px;
+  font-size: 13px; 
+  color: #F52E2E;
+  margin-bottom: -15.6px;
+}
+
+button {
+  margin: 0px 34.2px;
+  background-color: #3CCC87;
+  height: 71.2px;
+  width: 87.7%;
+  border-radius: 10px;
+  font-weight: 900;
+  font-size: 27px;
+  color: #ffffff;
+  letter-spacing: 0px;
+}
+
+.preenchido{
+  border: solid #00C22B;
+}
+.vazio{
+  border: solid #F52E2E;
+}
+.oculto{
+  display: none;
+}
+
+.formulario p.aparece{
+  margin-top: 25px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/responsible.css">
+
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <section class="principal">
+            <h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </section>
+        <section class="formulario">
+            <ul class="campos">
+                <li>
+                    <input class="input" type="text" name="Nome" id="Nome" value="" placeholder="Nome completo *"/>
+                    <p class="aviso Nome oculto">campo obrigatório</p>
+                </li>
+                <li>
+                    <input class="input" type="text" name="Email" id="Email" value="" placeholder="Email *"/>
+                    <p class="aviso Email oculto">campo obrigatório</p>
+                </li>
+                <li>
+                    <input class="input" type="text" name="Telefone" id="Tel" value="" placeholder="Telefone *"/>
+                    <p class="aviso Telefone oculto">campo obrigatório</p>
+                </li>
+                <li>
+                    <textarea class="input textarea" name="Mensagem" id="Msg" placeholder="Mensagem *"></textarea>
+                    <p class="aviso Mensagem oculto">campo obrigatório</p>
+                </li>
+            </ul>
+            
+          <p class="msg-obrigatoria">*campos obrigatórios</p>
+          <button type="submit">Enviar</button>
+        </section>
+    </main>
+    <script src="/index.js"></script>
+</body>
+</html>

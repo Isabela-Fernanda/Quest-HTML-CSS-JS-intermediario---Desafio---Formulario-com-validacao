@@ -1,0 +1,33 @@
+@media(max-width: 1275px) {
+    main {
+        padding: 21px 70px;
+      }
+}
+
+@media(max-width: 1080px) {
+    body {
+        background-color: #FD5E85;
+        background-image: none;
+    }
+   
+    main {
+        height: 100%;
+        flex-direction: column;
+        padding: 50px 20px;
+      }
+
+    .principal {
+        width: 85vw;
+        margin: 10px 0px 20px 0px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .formulario {
+        width: 85vw;
+    }
+
+    button{
+        margin: 0px 36.8px 20px 36.8px;
+    }  
+}
