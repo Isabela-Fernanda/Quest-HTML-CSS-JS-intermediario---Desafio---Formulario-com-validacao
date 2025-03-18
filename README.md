@@ -37,7 +37,6 @@ Live Site URL: [https://isabela-fernanda.github.io/Quest-HTML-CSS-JS-intermediar
 - Flexbox
 - CSS Grid
 - Js intermediario
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### O que aprendi
 
